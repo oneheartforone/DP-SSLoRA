@@ -36,7 +36,7 @@ https://www.kaggle.com/datasets/scipygaurav/15k-chest-xray-images-covid19
 
 ***
 
-#### Prepare datasets
+#### Prepare Datasets
 Please refer to the description in the <font color=green>datasets section</font> of the paper and use `\moco_pretraining\scripts\split_small_dataset.py` to preprocess these datasets.
 
 #### Pretrained Weights
