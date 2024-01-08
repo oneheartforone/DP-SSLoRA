@@ -37,7 +37,7 @@ https://www.kaggle.com/datasets/scipygaurav/15k-chest-xray-images-covid19
 ***
 
 #### Prepare Datasets
-Please refer to the description in the <font color=green>datasets section</font> of the paper and use `\moco_pretraining\scripts\split_small_dataset.py` to preprocess these datasets.
+Please read the <font color=green>datasets section</font> of the paper and use `\moco_pretraining\scripts\split_small_dataset.py` to preprocess these datasets.
 
 #### Pretrained Weights
 The pretrained weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12qIcnPfHUTzpYqRJrqAv4VULVxJAgmQf) and put in `\results\Pretrain_in_chexpert\all_none_tuningbatch128` directory.
@@ -69,11 +69,6 @@ cd moco_pretraining\lora_DP
 
 # DP-SSLoRA
 python main_lora_paper1_eval1.py -a resnet18 --epochs 50 --binary --workers 0 --gpu 0
-
-# Parameter strategies
-python main_lora_parametersearch.py -a resnet18 --epochs 50 --workers 0 --gpu 0
-
-python main_lora_parametersearch2.py -a resnet18 --epochs 50 --workers 0 --gpu 0
 
 # Validate in partial dataset
 python main_lora_partial.py -a resnet18 --epochs 50 --workers 0 --gpu 0
