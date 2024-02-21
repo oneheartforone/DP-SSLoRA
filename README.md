@@ -1,6 +1,6 @@
 # DP-SSLoRA
-The offical repository for all algorithms and code for the "<b>DP-SSLoRA: A Privacy-Preserving Medical Classification Model Combining Differential Privacy with Self-supervised Low-rank Adaptation</b>".
- 
+The official repository for "<b>DP-SALoRA: A privacy-preserving medical classification model that combines differential privacy with self-supervised low-order adaptation</b>."
+
 ## Usage
 
 #### Setup
